@@ -1,0 +1,52 @@
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.grid {
+    display: flex ;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 420px;
+    background-color: rgb(184, 17, 17);
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid div{
+    border: solid rgb(184, 17, 17) 2px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(197, 176, 172, 0.958);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight:bolder ;
+    font-size: 52px;
+}
+
+.scoreContainer {
+    margin-top: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header {
+    font-size: 80px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.instructions{
+    text-align: center;
+    margin: auto;
+}
+
+#result{
+    text-align: center;
+    margin: auto;
+}
